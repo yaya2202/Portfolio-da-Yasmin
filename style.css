@@ -1,0 +1,52 @@
+*{margin: 0px; padding: 0px;}
+body {
+padding-top: 40px;
+text-align: center;
+}
+#menu {
+ background-color: aquamarine;
+ position: fixed;
+ top: 0px;
+ text-align: center;
+ width: 100%;
+}
+.imagem {
+ width: 300px;
+ 
+}
+h1 {
+    font-size: 30px;
+}
+#bio {
+    font-family: 'Roboto Serif', sans-serif;
+}
+.line {
+    height: 6px;
+    background-color: rgb(251, 255, 2);
+    width: 200px;
+    margin: 8px auto;
+}
+.parallax {
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu {
+    list-style: none;
+    position: fixed;
+    top:0px;
+  margin: 0px;
+  z-index: 10;
+  cursor: pointer;
+  text-decoration:none;
+  background-color: lightgray;
+   text-align: center;
+   width: 100%;
+   padding-top: 5px;
+    padding-bottom: 5px;
+}
+.links {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
